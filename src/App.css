@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.select-option-department{
+ width:250px;
+ position: relative;
+ top: 20px;
+ left: 30px;
+}
+
+label.department-name {
+  margin-right: 1500px;
+  position: relative;
+  top: 13px;
+  left: 30px;
+}
+.select-option-employeeId{
+  width:250px;
+  position: relative;
+  bottom: 15px;
+  left: 353px;
+ }
+ label.employee-id {
+ position: absolute;
+ top: 14px;
+ left: 355px;
+ }
+ button.get-details-button {
+  position: absolute;
+  top: 49px;
+  width: 100px;
+  height: 32px;
+  left: 753px;
+  
+ }
+ button.clear-button {
+  position: absolute;
+  top: 49px;
+  right: 600px;
+  width: 100px;
+  height: 32px;
+ }
+ 
